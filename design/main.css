@@ -1,0 +1,54 @@
+:root {
+  --backgroundcolor: #172041;
+  --yellow: #eb9f0d;
+  --blue: #4a67ef;
+  --red: #dd2e4d;
+  --borderColor: #606f8e;
+  --imgColor: #3c4264;
+}
+
+body {
+  background-color: var(--backgroundcolor);
+}
+h1 {
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+}
+.blue {
+  color: var(--blue);
+}
+.yellow {
+  color: var(--yellow);
+}
+.red {
+  color: var(--red);
+}
+.pointer {
+  cursor: pointer;
+}
+.headingContainer {
+  min-width: 300px;
+  padding: 15px;
+  border: 2px solid var(--borderColor);
+  border-radius: 8px;
+}
+.inputD {
+  min-width: 300px;
+  padding: 10px;
+  border: 2px solid var(--borderColor);
+  border-radius: 8px;
+}
+.inputDis {
+  width: 100%;
+  color: white;
+  outline: none;
+  box-shadow: none;
+}
+.buttonD {
+  border: 2px solid var(--borderColor);
+  border-radius: 8px;
+  padding: 3px 0;
+  cursor: pointer;
+}

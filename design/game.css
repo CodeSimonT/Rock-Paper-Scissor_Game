@@ -1,0 +1,76 @@
+:root {
+  --backgroundcolorG: #172041;
+  --yellowG: #eb9f0d;
+  --blueG: #4a67ef;
+  --redG: #dd2e4d;
+  --borderColorG: #606f8e;
+  --imgColorG: #3c4264;
+}
+body {
+  background-color: var(--backgroundcolorG);
+}
+.sectionMax {
+  max-width: 800px;
+}
+.imgS {
+  width: 20px;
+}
+.activeHide {
+  display: none;
+}
+.displayA {
+  display: none;
+}
+.activeShow {
+  display: block;
+}
+.scoreW {
+  width: 300px;
+}
+.fontS {
+  font-size: 60px;
+}
+.imgBackground {
+  background-color: white;
+  padding: 10px;
+  border-radius: 50%;
+}
+.backgroundC {
+  background-color: white;
+  border-radius: 8px;
+  padding: 10px;
+}
+.backgroundC p {
+  color: var(--blueG);
+  margin-bottom: 0;
+}
+.backgroundC div {
+  color: var(--backgroundcolorG);
+}
+.borderRed {
+  border: 8px solid var(--redG);
+}
+.borderRed:hover {
+  transition: all 0.2s ease;
+  border: 8px solid gray;
+}
+.borderBlue {
+  border: 8px solid var(--blueG);
+}
+.borderBlue:hover {
+  transition: all 0.2s ease;
+  border: 8px solid gray;
+}
+.borderYellow {
+  border: 8px solid var(--yellowG);
+}
+.borderYellow:hover {
+  transition: all 0.2s ease;
+  border: 8px solid gray;
+}
+.iconS {
+  width: 50px;
+}
+.repeatW {
+  width: 40px;
+}

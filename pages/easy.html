@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../design/main.css" />
+    <link rel="stylesheet" href="../design/game.css" />
+
+    <title>Easy</title>
+  </head>
+  <body>
+    <section
+      class="d-flex justify-content-between align-items-center py-5 vh-100"
+    >
+      <div class="container-fluid sectionMax">
+        <!-- home link -->
+        <div
+          class="d-flex text-white-50 align-items-center justify-content-end mb-1"
+        >
+          <div classd="d-flex align-items-center">
+            <img
+              src="../img/icons8-arrow-pointing-left-50.png"
+              alt=""
+              class="imgS"
+            />
+          </div>
+          <a href="../index.html" class="m-0 ms-1 text-white-50">Exit</a>
+        </div>
+        <!-- top item -->
+        <div class="text-white headingContainer d-flex justify-content-between">
+          <!-- title left -->
+          <div>
+            <h1>
+              <span class="red">Rock</span> <br />
+              <span class="blue">Paper</span> <br />
+              <span class="yellow">Scissor</span> <br />
+            </h1>
+          </div>
+          <!-- score rigth -->
+          <div class="d-flex scoreW">
+            <!-- Your Score -->
+            <div class="w-50 text-center backgroundC me-2">
+              <p>Your Score</p>
+              <div class="fontS playerS">0</div>
+            </div>
+            <!-- Robot Score -->
+            <div class="w-50 text-center backgroundC">
+              <p>Robot Score</p>
+              <div class="fontS robotS">0</div>
+            </div>
+          </div>
+        </div>
+        <!-- middle content -->
+        <div class="d-flex justify-content-center pt-4 text-white">
+          <h2 class="resultMess">Make a Choice</h2>
+          <div class="align-items-center ms-5 pointer activeHide reapeter">
+            <img src="../img/icons8-repeat-100.png" alt="" class="repeatW" />
+          </div>
+        </div>
+        <!-- bottom item -->
+        <div class="row rowItem">
+          <!-- item 1 -->
+          <div
+            class="col-6 pointer mt-3 d-grid justify-content-center align-content-center rock"
+          >
+            <div class="imgBackground borderRed">
+              <img src="../img/icons8-rock-100.png" alt="" class="iconS" />
+            </div>
+          </div>
+          <!-- item 2 -->
+          <div
+            class="col-6 pointer mt-3 d-grid justify-content-center align-content-center paper"
+          >
+            <div class="imgBackground borderBlue">
+              <img src="../img/icons8-paper-100 (1).png" alt="" class="iconS" />
+            </div>
+          </div>
+          <!-- item 3 -->
+          <div
+            class="col-12 pointer mt-5 d-grid justify-content-center align-content-center scissor"
+          >
+            <div class="imgBackground borderYellow">
+              <img
+                src="../img/icons8-scissors-100 (1).png"
+                alt=""
+                class="iconS"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- matching container -->
+        <div class="row displayA rowItemHidden">
+          <!-- your choice -->
+          <div
+            class="col-12 pointer mt-3 d-flex justify-content-center align-content-center rock"
+          >
+            <div class="imgBackground borderRed">
+              <img src="" alt="" class="iconS playerContainer" />
+            </div>
+            <div
+              class="d-flex justify-content-center align-items-center text-white ms-2"
+            >
+              <h1>You</h1>
+            </div>
+          </div>
+          <!-- robot choice -->
+          <div
+            class="col-12 pointer mt-5 d-flex justify-content-center align-content-center paper"
+          >
+            <div class="imgBackground borderBlue">
+              <img src="" alt="" class="iconS robotContainer" />
+            </div>
+            <div
+              class="d-flex justify-content-center align-items-center text-white ms-2"
+            >
+              <h1>Robot</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="../mutatedjs/easy.js"></script>
+  <script src="../js/bootstrap.bundle.min.js"></script>
+</html>
